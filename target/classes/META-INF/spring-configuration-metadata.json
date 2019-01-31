@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "restapi",
+      "type": "com.cursospringboot.api.config.security.util.RestApiProperty",
+      "sourceType": "com.cursospringboot.api.config.security.util.RestApiProperty"
+    },
+    {
+      "name": "restapi.seguranca",
+      "type": "com.cursospringboot.api.config.security.util.RestApiProperty$Seguranca",
+      "sourceType": "com.cursospringboot.api.config.security.util.RestApiProperty",
+      "sourceMethod": "public com.cursospringboot.api.config.security.util.RestApiProperty.Seguranca getSeguranca() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "restapi.origin-permitida",
+      "type": "java.lang.String",
+      "sourceType": "com.cursospringboot.api.config.security.util.RestApiProperty"
+    },
+    {
+      "name": "restapi.seguranca.enable-https",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cursospringboot.api.config.security.util.RestApiProperty$Seguranca"
+    }
+  ],
+  "hints": []
+}
